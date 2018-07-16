@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 
-import './App.scss';
+import styles from './index.scss';
 
 class App extends Component {
+  state = {
+    teams: [
+      {country: 'pol', name: 'Polska'}
+    ]
+  }
   render() {
     return (
       <div className="App">
-        <table className="table">
+        <table className={styles.table}>
           <caption className="table__caption">
             <p className="table__caption__title">Group A</p>
           </caption>
@@ -26,7 +31,7 @@ class App extends Component {
           </thead>
           <tbody>
             <tr>
-              <td className="table__teamname">
+              <td className={styles.table__teamname}>
 
                 <div className="teamname__item">
                   <img src="//api.fifa.com/api/v1/picture/flags-fwc2018-4/pol" alt="pol" title="POL" className="pol"/>
@@ -50,7 +55,7 @@ class App extends Component {
             </tr>
 
             <tr>
-              <td className="table__teamname">
+              <td className={styles.table__teamname}>
 
                 <div className="teamname__item">
                   <img src="https://api.fifa.com/api/v1/picture/flags-fwc2018-4/bra" alt="bra" title="BRA" className="bra"/>
@@ -73,7 +78,7 @@ class App extends Component {
 
             </tr>
             <tr>
-              <td className="table__teamname">
+              <td className={styles.table__teamname}>
 
                 <div className="teamname__item">
                   <img src="https://api.fifa.com/api/v1/picture/flags-fwc2018-4/esp" alt="esp" title="ESP" className="esp"/>
@@ -96,8 +101,8 @@ class App extends Component {
               <td className="table__pts"><span className="text">3</span></td>
 
             </tr>
-            <tr data-team-id="43855">
-              <td className="table__teamname">
+            <tr>
+              <td className={styles.table__teamname}>
 
                 <div className="teamname__item">
                   <img src="https://api.fifa.com/api/v1/picture/flags-fwc2018-4/ger" alt="ger" title="GER" className="ger"/>

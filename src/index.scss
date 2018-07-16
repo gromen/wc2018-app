@@ -1,0 +1,16 @@
+
+.table {
+    width: 100%;
+    text-align: center;
+
+    &__teamname {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 65px;
+            margin-right: 20px;
+        }
+    }
+}
+

@@ -6,10 +6,10 @@ import GroupFixtures from './../components/GroupFixtures/GroupFixtures';
 class App extends Component {
   state = {
     teams: [
-      { name: 'Polska', countryPrefix: 'pol', played: 4, win: 1, draw: 0, lost: 2, goalfor: 3, goalagainst: 1, diffgoal: 3, pts: 9},
-      { name: 'Niemcy', countryPrefix: 'ger', played: 4, win: 1, draw: 0, lost: 2, goalfor: 3, goalagainst: 1, diffgoal: 2, pts: 6},
-      { name: 'Brazylia', countryPrefix: 'bra', played: 4, win: 1, draw: 0, lost: 2, goalfor: 3, goalagainst: 1, diffgoal: 1, pts: 3},
-      { name: 'Hiszpania', countryPrefix: 'esp', played: 4, win: 1, draw: 0, lost: 2, goalfor: 3, goalagainst: 1, diffgoal: 4, pts: 0},
+      { name: 'Polska', prefix: 'pol', played: 4, win: 1, draw: 0, lost: 2, goalfor: 3, goalagainst: 1, diffgoal: 3, pts: 9},
+      { name: 'Niemcy', prefix: 'ger', played: 4, win: 1, draw: 0, lost: 2, goalfor: 3, goalagainst: 1, diffgoal: 2, pts: 6},
+      { name: 'Brazylia', prefix: 'bra', played: 4, win: 1, draw: 0, lost: 2, goalfor: 3, goalagainst: 1, diffgoal: 1, pts: 3},
+      { name: 'Hiszpania', prefix: 'esp', played: 4, win: 1, draw: 0, lost: 2, goalfor: 3, goalagainst: 1, diffgoal: 4, pts: 0},
     ]
   }
 

@@ -5,7 +5,7 @@ import GroupStageRowDetails from './GroupStageRowDetails/GroupStageRowDetails';
 const GroupStageRow = (props) => props.teams.map((team, index) => {
     return <GroupStageRowDetails
             key={index + 1}
-            imgPrefix={team.countryPrefix}
+            imgPrefix={team.prefix}
             name={team.name}
             played={team.played}
             win={team.win}

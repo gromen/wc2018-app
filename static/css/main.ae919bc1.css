@@ -1,0 +1,38 @@
+.index__table___1NO8Y {
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  text-align: center; }
+  .index__table__teamname___2Y-_f {
+    display: flex;
+    align-items: center; }
+    .index__table__teamname___2Y-_f img {
+      width: 65px;
+      margin-right: 20px; }
+.fixtures__fixture___3oVHo,
+.fixtures__score___3eYui {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.fixtures__home___2BMm5,
+.fixtures__away___Hg2Rn {
+  display: flex;
+  align-items: center;
+  flex-basis: 130px; }
+
+.fixtures__home___2BMm5 .fixtures__img___XVsFT {
+  margin-left: auto; }
+
+.fixtures__img___XVsFT {
+  width: 65px; }
+
+input {
+  margin: 10px;
+  text-align: center;
+  width: 35px; }
+  input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+
+/*# sourceMappingURL=main.ae919bc1.css.map*/
